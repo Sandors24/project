@@ -1,0 +1,13 @@
+
+.item{
+    color: rgb(95, 42, 165);
+}
+
+
+.item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    
+    
+}
