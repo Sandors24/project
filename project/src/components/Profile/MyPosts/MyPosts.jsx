@@ -14,11 +14,10 @@ export const MyPosts = () => {
         </div>
        
         <div>
-<div className={s.posts}>
-  <Post></Post>
-  <Post></Post>
-  <Post></Post>
-  <Post></Post>
+<div className={s.item}>
+  <Post mesagge=" hi,how are you"/>
+  <Post mesagge="it is my first post"/>
+  
 </div>
 
 
