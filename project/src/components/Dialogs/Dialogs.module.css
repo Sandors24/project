@@ -3,18 +3,21 @@
     grid-template-columns: 2fr 10fr;
 
 }
-.dialogsItems{
+.dialogsItems {
     padding: 10px;
+    color: white;
+    
     
 }
-.dialog{
+
+
+.dialogs{
+    color: red;
 
 }
 .mesagges{
     padding: 10px;
+    color: blueviolet;
 
 }
 
-.mesaje{
-
-}

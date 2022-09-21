@@ -4,19 +4,32 @@ import { Post } from './Post/Post'
 
 
 export const MyPosts = () => {
+  let posts=[
+    {id:1 ,mesagge:"hi,how are you",likesCount:12},
+    {id:2 ,mesage:"it is my first post",likesCount:11},
+    {id:2 ,mesage:"it is my first post",likesCount:11},
+    {id:2 ,mesage:"it is my first post",likesCount:11}
+   
+  ]
+  let postElements=posts.map(p=><Post mesagge={p.mesagge}likesCount={p.likesCount}/> )
+
+
+
   return (
-    <div  >
-        <div >MyPosts</div>
+    <div  className={s.postsBlock}>
+        <div ><h2>MY Post</h2></div>
         <div>
-          <textarea></textarea>
-          <button>Add post</button>
+          <div><textarea></textarea></div>
+        <div>
+        <button>Add post</button>
+        </div>
           <button>Remove </button>
         </div>
        
         <div>
-<div className={s.item}>
-  <Post mesagge=" hi,how are you"/>
-  <Post mesagge="it is my first post"/>
+<div className={s.posts}>
+  
+  {postElements}
   
 </div>
 
